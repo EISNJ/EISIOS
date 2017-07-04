@@ -64,6 +64,7 @@
 		5784E1C61A0345C900ADE8AE /*   MeetingListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5784E1C51A0345C900ADE8AE /*   MeetingListViewController.m */; };
 		5784E1E81A036F4800ADE8AE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5784E1E71A036F4800ADE8AE /* CoreData.framework */; };
 		57E5835B1A0373B5000A1E7E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E5835A1A0373B5000A1E7E /* QuartzCore.framework */; };
+		8400B2F31F0B74610047B699 /* Testviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400B2F21F0B74610047B699 /* Testviewcontroller.m */; };
 		840C53961E81455200F41273 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C53951E81455200F41273 /* XYPieChart.m */; };
 		842A18851E9209D400F2D12F /* TWRBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A18751E9209D400F2D12F /* TWRBarChart.m */; };
 		842A18861E9209D400F2D12F /* TWRChartBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A18781E9209D400F2D12F /* TWRChartBuilder.m */; };
@@ -236,6 +237,8 @@
 		5784E1C51A0345C900ADE8AE /*   MeetingListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "  MeetingListViewController.m"; sourceTree = "<group>"; };
 		5784E1E71A036F4800ADE8AE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		57E5835A1A0373B5000A1E7E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8400B2F11F0B74610047B699 /* Testviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Testviewcontroller.h; sourceTree = "<group>"; };
+		8400B2F21F0B74610047B699 /* Testviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testviewcontroller.m; sourceTree = "<group>"; };
 		840C53941E81455200F41273 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
 		840C53951E81455200F41273 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
 		842A18741E9209D400F2D12F /* TWRBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWRBarChart.h; path = "../TWRCharts-master/TWRCharts/TWRBarChart.h"; sourceTree = "<group>"; };
@@ -361,6 +364,8 @@
 				2348F1B31AA579F7003111B7 /* UIBubbleTableViewDataSource.h */,
 				2348F1B41AA579F7003111B7 /* UIBubbleTypingTableViewCell.h */,
 				2348F1B51AA579F7003111B7 /* UIBubbleTypingTableViewCell.m */,
+				8400B2F11F0B74610047B699 /* Testviewcontroller.h */,
+				8400B2F21F0B74610047B699 /* Testviewcontroller.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -440,7 +445,7 @@
 		5769CC171A01FF6C0069A432 = {
 			isa = PBXGroup;
 			children = (
-				8400B2EF1F0B70030047B699 /* ios */,
+				8400B2F01F0B73A60047B699 /* ios group */,
 				8423DDA61EF3DAE0004774CF /* TWRCharts */,
 				84F2B8B11E9CFDD4003DF2F9 /* Launch Screen.storyboard */,
 				840C53941E81455200F41273 /* XYPieChart.h */,
@@ -647,11 +652,11 @@
 			name = MeetingModule;
 			sourceTree = "<group>";
 		};
-		8400B2EF1F0B70030047B699 /* ios */ = {
+		8400B2F01F0B73A60047B699 /* ios group */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = ios;
+			name = "ios group";
 			sourceTree = "<group>";
 		};
 		8423DDA61EF3DAE0004774CF /* TWRCharts */ = {
@@ -800,6 +805,7 @@
 				8444DA741EFBEC660043ACA0 /* AFHTTPSessionManager.m in Sources */,
 				2348F2191AA57A1B003111B7 /* CoreData.xcdatamodeld in Sources */,
 				8444DA951EFBEF720043ACA0 /* UIRefreshControl+AFNetworking.m in Sources */,
+				8400B2F31F0B74610047B699 /* Testviewcontroller.m in Sources */,
 				8444DA751EFBEC660043ACA0 /* AFNetworkReachabilityManager.m in Sources */,
 				2348F1CC1AA579F7003111B7 /* VideoViewController.m in Sources */,
 				8444DA771EFBEC660043ACA0 /* AFURLRequestSerialization.m in Sources */,
