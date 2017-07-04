@@ -16,7 +16,6 @@
 		2348F1C51AA579F7003111B7 /* UIBubbleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348F1B01AA579F7003111B7 /* UIBubbleTableView.m */; };
 		2348F1C61AA579F7003111B7 /* UIBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348F1B21AA579F7003111B7 /* UIBubbleTableViewCell.m */; };
 		2348F1C71AA579F7003111B7 /* UIBubbleTypingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348F1B51AA579F7003111B7 /* UIBubbleTypingTableViewCell.m */; };
-		2348F1C81AA579F7003111B7 /*  TaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348F1B71AA579F7003111B7 /*  TaskListViewController.m */; };
 		2348F1C91AA579F7003111B7 /* TextUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348F1B91AA579F7003111B7 /* TextUploadViewController.m */; };
 		2348F1CA1AA579F7003111B7 /* Toast+UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348F1BB1AA579F7003111B7 /* Toast+UIView.m */; };
 		2348F1CB1AA579F7003111B7 /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2348F1BD1AA579F7003111B7 /* UserData.m */; };
@@ -65,6 +64,7 @@
 		5784E1E81A036F4800ADE8AE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5784E1E71A036F4800ADE8AE /* CoreData.framework */; };
 		57E5835B1A0373B5000A1E7E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E5835A1A0373B5000A1E7E /* QuartzCore.framework */; };
 		8400B2F31F0B74610047B699 /* Testviewcontroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400B2F21F0B74610047B699 /* Testviewcontroller.m */; };
+		8400B2F61F0B761F0047B699 /* TaskListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8400B2F51F0B761F0047B699 /* TaskListViewController.m */; };
 		840C53961E81455200F41273 /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C53951E81455200F41273 /* XYPieChart.m */; };
 		842A18851E9209D400F2D12F /* TWRBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A18751E9209D400F2D12F /* TWRBarChart.m */; };
 		842A18861E9209D400F2D12F /* TWRChartBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 842A18781E9209D400F2D12F /* TWRChartBuilder.m */; };
@@ -143,8 +143,6 @@
 		2348F1B31AA579F7003111B7 /* UIBubbleTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTableViewDataSource.h; sourceTree = "<group>"; };
 		2348F1B41AA579F7003111B7 /* UIBubbleTypingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTypingTableViewCell.h; sourceTree = "<group>"; };
 		2348F1B51AA579F7003111B7 /* UIBubbleTypingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleTypingTableViewCell.m; sourceTree = "<group>"; };
-		2348F1B61AA579F7003111B7 /* TaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListViewController.h; sourceTree = "<group>"; };
-		2348F1B71AA579F7003111B7 /*  TaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = " TaskListViewController.m"; sourceTree = "<group>"; };
 		2348F1B81AA579F7003111B7 /* TextUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextUploadViewController.h; sourceTree = "<group>"; };
 		2348F1B91AA579F7003111B7 /* TextUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextUploadViewController.m; sourceTree = "<group>"; };
 		2348F1BA1AA579F7003111B7 /* Toast+UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Toast+UIView.h"; sourceTree = "<group>"; };
@@ -239,6 +237,8 @@
 		57E5835A1A0373B5000A1E7E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8400B2F11F0B74610047B699 /* Testviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Testviewcontroller.h; sourceTree = "<group>"; };
 		8400B2F21F0B74610047B699 /* Testviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testviewcontroller.m; sourceTree = "<group>"; };
+		8400B2F41F0B761F0047B699 /* TaskListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListViewController.h; sourceTree = "<group>"; };
+		8400B2F51F0B761F0047B699 /* TaskListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListViewController.m; sourceTree = "<group>"; };
 		840C53941E81455200F41273 /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
 		840C53951E81455200F41273 /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
 		842A18741E9209D400F2D12F /* TWRBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TWRBarChart.h; path = "../TWRCharts-master/TWRCharts/TWRBarChart.h"; sourceTree = "<group>"; };
@@ -527,8 +527,8 @@
 				8444D9EE1EFA40310043ACA0 /* JSONKit.h */,
 				8444D9EF1EFA40310043ACA0 /* JSONKit.m */,
 				2348F1AA1AA579F7003111B7 /* src */,
-				2348F1B61AA579F7003111B7 /* TaskListViewController.h */,
-				2348F1B71AA579F7003111B7 /*  TaskListViewController.m */,
+				8400B2F41F0B761F0047B699 /* TaskListViewController.h */,
+				8400B2F51F0B761F0047B699 /* TaskListViewController.m */,
 				2348F1B81AA579F7003111B7 /* TextUploadViewController.h */,
 				2348F1B91AA579F7003111B7 /* TextUploadViewController.m */,
 				2348F1BA1AA579F7003111B7 /* Toast+UIView.h */,
@@ -773,7 +773,6 @@
 				2348F1C41AA579F7003111B7 /* UIBubbleHeaderTableViewCell.m in Sources */,
 				842A188F1E9209F800F2D12F /* DSBarChart.m in Sources */,
 				2348F1C61AA579F7003111B7 /* UIBubbleTableViewCell.m in Sources */,
-				2348F1C81AA579F7003111B7 /*  TaskListViewController.m in Sources */,
 				2348F23E1AA57A1B003111B7 /* UserbasedMeetingsViewController.m in Sources */,
 				8444DA761EFBEC660043ACA0 /* AFSecurityPolicy.m in Sources */,
 				2348F1C11AA579F7003111B7 /* CreatTaskViewController.m in Sources */,
@@ -810,6 +809,7 @@
 				2348F1CC1AA579F7003111B7 /* VideoViewController.m in Sources */,
 				8444DA771EFBEC660043ACA0 /* AFURLRequestSerialization.m in Sources */,
 				2348F2331AA57A1B003111B7 /* programByOwnerReportsViewController.m in Sources */,
+				8400B2F61F0B761F0047B699 /* TaskListViewController.m in Sources */,
 				2348F22B1AA57A1B003111B7 /* issueEntryViewController.m in Sources */,
 				2348F2321AA57A1B003111B7 /* pieChartViewController.m in Sources */,
 				2348F1C91AA579F7003111B7 /* TextUploadViewController.m in Sources */,
