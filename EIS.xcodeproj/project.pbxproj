@@ -440,6 +440,7 @@
 		5769CC171A01FF6C0069A432 = {
 			isa = PBXGroup;
 			children = (
+				8400B2EF1F0B70030047B699 /* ios */,
 				8423DDA61EF3DAE0004774CF /* TWRCharts */,
 				84F2B8B11E9CFDD4003DF2F9 /* Launch Screen.storyboard */,
 				840C53941E81455200F41273 /* XYPieChart.h */,
@@ -644,6 +645,13 @@
 				5784E1C51A0345C900ADE8AE /*   MeetingListViewController.m */,
 			);
 			name = MeetingModule;
+			sourceTree = "<group>";
+		};
+		8400B2EF1F0B70030047B699 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ios;
 			sourceTree = "<group>";
 		};
 		8423DDA61EF3DAE0004774CF /* TWRCharts */ = {
